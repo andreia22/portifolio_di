@@ -285,6 +285,24 @@ h6 {
   border-bottom: 3px solid #060505;
 }
 
+@media (min-width: 430px) {
+  #hero h1 {
+    margin-left: 700px;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+
+  }
+}
+
+@media (min-width: 430px) {
+  #hero p span {
+    margin-right: 400px;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+
+  }
+}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
